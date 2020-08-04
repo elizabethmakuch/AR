@@ -13,7 +13,7 @@
       "format": "date",
       "br_required": true
      },
-      "reg_address": {
+     "reg_address": {
       "type": "string",
       "title": "Voting Residence Street Address",
             "br_required": true
@@ -27,19 +27,19 @@
       "mailing_info_title": {
         "type": "string",
         "title": "Mailing Address"
-        },
-        "mailing_address_description": {
-          "type": "hidden-field",
-          "title": "Address where the Absentee Ballot will be mailed"
-        },
-        "mail_info": {
-           "type": "object",
-           "title": ""
-            "properties": {
-              "mail_address_line_1": {
-                "type": "string",
-                "title": "Mailing Street Address",
-                "br_required": true
+      },
+      "mailing_address_description": {
+        "type": "hidden-field",
+         "title": "Address where the Absentee Ballot will be mailed"
+      },
+      "mail_info": {
+         "type": "object",
+         "title": ""
+         "properties": {
+            "mail_address_line_1": {
+               "type": "string",
+               "title": "Mailing Street Address",
+               "br_required": true
             },
             "mail_city_state": {
                 "type": "string",
