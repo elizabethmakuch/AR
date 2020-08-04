@@ -1,0 +1,123 @@
+{
+    "type": "object",
+    "title": "Basic Information About You",
+    "properties": {
+        "full_name": {
+            "type": "string",
+            "title": "Full Name of Voter",
+            "br_required": true
+        },
+        "birth_date": {
+            "type": "number",
+            "title": "Voter's Date of Birth",
+            "format": "date",
+            "br_required": true
+        },
+        "reg_address": {
+            "type": "string",
+            "title": "Voting Residence Street Address",
+            "br_required": true
+        },
+        "reg_address_city_state_zip": {
+            "type": "string",
+            "title": "Voting Residence City or Town, State and Zip Code",
+            "br_required": true
+        },
+        "mailing_info_title": {
+            "type": "string",
+            "title": "Mailing Address"
+        },
+        "mail_info": {
+            "type": "string",
+            "title": "(address where the Absentee Ballot will be mailed)"
+        },
+        "mail_address_line_1": {
+            "type": "string",
+            "title": "Mailing Street Address",
+            "br_required": true
+        },
+        "mail_city_state": {
+            "type": "string",
+            "title": "Mailing City and State",
+            "br_required": true
+        },
+        "mail_zip": {
+            "type": "number",
+            "title": "Mailing Zip Code",
+            "format": "zipcode",
+            "br_required": true
+        },
+        "today_date": {
+            "type": "number",
+            "title": "Today's Date",
+            "format": "date",
+            "br_required": true
+        },
+        "clerk_address": {
+            "type": "string",
+            "title": "County Clerk's Street Address",
+            "br_required": true
+        },
+        "clerk_address_city_state": {
+            "type": "string",
+            "title": "County Clerk's Address City, State",
+            "br_required": true
+        },
+        "clerk_address_zip": {
+            "type": "number",
+            "title": "County Clerk's Address Zip Code",
+            "format": "zipcode",
+            "br_required": true
+        },
+        "residence_title": {
+            "type": "string",
+            "title": "I RESIDE (check one of the following)",
+            "format": "title"
+        },
+        "registered_county_checkbox": {
+            "type": "boolean",
+            "title": "within the county in which I am registered to vote",
+            "format": "checkbox"
+        },
+        "outside_county_check_checkbox": {
+            "type": "boolean",
+            "title": "outside the county in which I am registered to vote",
+            "format": "checkbox"
+        },
+        "military_checkbox": {
+            "type": "boolean",
+            "title": "I am member of the merchant marine or uniformed services of the United States on active duty or service (UOCAVA)",
+            "format": "checkbox"
+        },
+        "overseas_checkbox": {
+            "type": "boolean",
+            "title": "I am a United States citizen residing outside the territorial limits of the US and the District of Columbia (UOCAVA)",
+            "format": "checkbox"
+        },
+        "relative_military_checkbox": {
+            "type": "boolean",
+            "title": "I am a spouse or dependent of a member of the merchant marine or uniformed services of the United State who will be absent from the place where I am qualified to vote because of the members active duty or service (UOCAVA).",
+            "format": "checkbox"
+        },
+        "ballot_form_title": {
+            "type": "string",
+            "title": "I will receive my ballot by (check one of the following)",
+            "format": "title"
+        },
+        "ballot_pickup": {
+            "type": "boolean",
+            "title": "Coming to the office of the county clerk by the time the county clerk's office regularly closes on the day before the election",
+            "format": "checkbox"
+        },
+        "ballot_email": {
+            "type": "boolean",
+            "title": "Electronic Means: Receive ballot via email (for UOCAVA voters only) If receiving via email enter email below.",
+            "format": "checkbox"
+        },
+        "ballot_email_address": {
+            "type": "string",
+            "title": "Email Address for ballot (for UOCAVA voters only)",
+            "format": "email"
+        }
+    }
+}
