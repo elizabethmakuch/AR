@@ -36,7 +36,7 @@
          "type": "object",
          "title": ""
          "properties": {
-            "mail_address_line_1": {
+            "mail_address": {
                "type": "string",
                "title": "Mailing Street Address",
                "br_required": true
@@ -52,6 +52,7 @@
                 "format": "zipcode",
                 "br_required": true
             },
+          },
         },
         "today_date": {
             "type": "string",
