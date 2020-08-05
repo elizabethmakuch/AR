@@ -53,18 +53,18 @@
                 "br_required": true
             },
           },
-       },
-       "today_date": {
+        },
+        "today_date": {
           "type": "string",
           "title": "Today's Date",
           "format": "date",
           "br_required": true
-       },
+        },
         "clerk_address": {
           "type": "string",
           "title": "County Clerk's Street Address",
           "br_required": true
-       },
+        },
     //need to be split from city_state field into 2//
         "clerk_address_city_state": {
            "type": "string",
