@@ -1,13 +1,14 @@
 {
     "top": [
         "full_name",
-        "birth_date",
+        "birthday",
         "reg_address",
         "reg_address_city_state_zip",
         "mailing_info_title",
-        "mail_info",
-        "mail_address_line_1",
-        "mail_city_state",
+        "mail_info_description",
+        "mail_address",
+        "mail_city",
+        "mail_state",
         "mail_zip",
         "today_date",
         "clerk_address",
