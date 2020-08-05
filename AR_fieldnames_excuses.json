@@ -1,0 +1,17 @@
+{
+	"fieldnames": [
+	{
+		"name": "I will be unavoidably absent from my polling site on Election Day OR",
+		"maps_to": "absent"
+	},
+	{
+		"name": "I will be unable to attend the polls on Election Day because of illness or physical disability OR",
+		"maps_to": "disability"
+	},
+	{
+		"name": "I reside in a longterm care or residential facility licensed by the state",
+		"maps_to": "longterm_care_facility"
+	}
+
+	]
+}
