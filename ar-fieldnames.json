@@ -6,11 +6,23 @@
         },
         {
             "name": "Date of Birth of the Voter",
-            "maps_to": "birth_date"
+            "maps_to": "birthday"
         },
         {
             "name": "Voting Residence Address of Voter",
             "maps_to": "reg_address"
+        },
+        {
+            "name": "City or Town State and Zip Code",
+            "maps_to": "reg_city"
+        },
+        {
+            "name": "City or Town State and Zip Code",
+            "maps_to": "reg_state"
+        },
+        {
+            "name": "City or Town State and Zip Code",
+            "maps_to": "reg_zipcode"
         },
         {
             "name": "DATE",
