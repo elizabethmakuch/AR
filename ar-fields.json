@@ -12,45 +12,45 @@
       "title": "Voter's Date of Birth",
       "format": "date",
       "br_required": true
-     },
-     "reg_address": {
+    },
+    "reg_address": {
       "type": "string",
       "title": "Voting Residence Street Address",
             "br_required": true
-     },
+    },
         //will need to split- this 1 field into 3//
-     "reg_address_city_state_zip": {
-       "type": "string",
-       "title": "Voting Residence City or Town, State and Zip Code",
-       "br_required": true
-      },
-      "mailing_info_title": {
-        "type": "string",
-        "title": "Mailing Address"
-      },
-      "mailing_address_description": {
-        "type": "hidden-field",
-        "title": "Address where the Absentee Ballot will be mailed"
-      },
-      "mail_info": {
-        "type": "object",
-        "title": ""
-        "properties": {
-           "mail_address": {
-              "type": "string",
-              "title": "Mailing Street Address",
-              "br_required": true
+    "reg_address_city_state_zip": {
+      "type": "string",
+      "title": "Voting Residence City or Town, State and Zip Code",
+      "br_required": true
+    },
+    "mailing_info_title": {
+      "type": "string",
+      "title": "Mailing Address"
+    },
+    "mailing_address_description": {
+      "type": "hidden-field",
+      "title": "Address where the Absentee Ballot will be mailed"
+    },
+    "mail_info": {
+      "type": "object",
+      "title": ""
+      "properties": {
+         "mail_address": {
+            "type": "string",
+            "title": "Mailing Street Address",
+            "br_required": true
             },
             "mail_city_state": {
-                "type": "string",
-                "title": "Mailing City and State",
-                "br_required": true
+              "type": "string",
+              "title": "Mailing City and State",
+              "br_required": true
             },
             "mail_zip": {
-                "type": "string",
-                "title": "Mailing Zip Code",
-                "format": "zipcode",
-                "br_required": true
+              "type": "string",
+              "title": "Mailing Zip Code",
+              "format": "zipcode",
+              "br_required": true
             },
           },
         },
