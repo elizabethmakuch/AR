@@ -17,11 +17,22 @@
       "type": "string",
       "title": "Voting Residence Street Address",
             "br_required": true
+   //will need to combine these 3 fields (city, state, zip) into 1 to fit the form//
     },
-        //will need to split- this 1 field into 3//
-    "reg_address_city_state_zip": {
+    "reg_city": {
       "type": "string",
-      "title": "Voting Residence City or Town, State and Zip Code",
+      "title": "City or Town",
+      "br_required": true
+    },
+    "reg_state": {
+      "type": "string",
+      "title": "Voing Residence State",
+      "br_required": true
+    },
+    "reg_zipcode": {
+      "type": "string",
+      "title": "Voting Residence Zip Code",
+      "format": "zipcode"
       "br_required": true
     },
     "mailing_info_title": {
@@ -41,12 +52,18 @@
             "title": "Mailing Street Address",
             "br_required": true
             },
-            "mail_city_state": {
+    //will need to combine city and state into the same field to fit the form//
+            "mail_city": {
               "type": "string",
-              "title": "Mailing City and State",
+              "title": "Mailing City",
               "br_required": true
             },
-            "mail_zip": {
+            "mail_state": {
+              "type": "string",
+              "title": "Mailing State",
+              "br_required": true
+            },
+            "mail_zipcode": {
               "type": "string",
               "title": "Mailing Zip Code",
               "format": "zipcode",
@@ -101,16 +118,6 @@
             "type": "boolean",
             "title": "Coming to the office of the county clerk by the time the county clerk's office regularly closes on the day before the election",
             "format": "checkbox"
-        },
-        "ballot_email": {
-            "type": "boolean",
-            "title": "Electronic Means: Receive ballot via email (for UOCAVA voters only) If receiving via email enter email below.",
-            "format": "checkbox"
-        },
-        "ballot_email_address": {
-            "type": "string",
-            "title": "Email Address for ballot (for UOCAVA voters only)",
-            "format": "email"
         }
     }
 }
