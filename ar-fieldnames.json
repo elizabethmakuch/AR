@@ -1,0 +1,20 @@
+{
+    "fieldnames": [
+        {
+            "name": "Printed or Typed Name of Voter",
+            "maps_to": "full_name"
+        },
+        {
+            "name": "Date of Birth of the Voter",
+            "maps_to": "birth_date"
+        },
+        {
+            "name": "Voting Residence Address of Voter",
+            "maps_to": "reg_address"
+        },
+        {
+            "name": "DATE",
+            "maps_to": "today_date"
+        }
+    ]
+}

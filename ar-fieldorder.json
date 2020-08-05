@@ -1,0 +1,27 @@
+{
+    "top": [
+        "full_name",
+        "birth_date",
+        "reg_address",
+        "reg_address_city_state_zip",
+        "mailing_info_title",
+        "mail_info",
+        "mail_address_line_1",
+        "mail_city_state",
+        "mail_zip",
+        "today_date",
+        "clerk_address",
+        "clerk_address_city_state",
+        "clerk_address_zip",
+        "residence_title",
+        "registered_county_checkbox",
+        "outside_county_check_checkbox",
+        "military_checkbox",
+        "overseas_checkbox",
+        "relative_military_checkbox",
+        "ballot_form_title",
+        "ballot_pickup",
+        "ballot_email",
+        "ballot_email_address"
+    ]
+}
